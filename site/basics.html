@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>総論：病院の全体像｜医療知識 学習ロードマップ</title>
+<style>
+:root{--ink:#1f2328;--sub:#5d6670;--line:#e3e6ea;--bg:#ffffff;--soft:#f6f7f9;--accent:#2f5d9e;--warn:#9a3b2f}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.8;font-size:16px}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:12px;max-width:860px;margin:0 auto;padding:10px 16px}
+.brand{font-weight:700;color:var(--ink);text-decoration:none;font-size:15px}
+details.nav{margin-left:auto}
+details.nav summary{cursor:pointer;list-style:none;padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px}
+details.nav summary::-webkit-details-marker{display:none}
+details.nav[open] .menu{display:block}
+.menu{display:none;position:absolute;right:16px;top:52px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.08);padding:8px;max-height:70vh;overflow:auto;width:min(320px,90vw)}
+.menu a{display:block;padding:8px 10px;border-radius:8px;color:var(--ink);text-decoration:none;font-size:14px}
+.menu a:hover,.menu a.cur{background:var(--soft)}
+.menu .grp{font-size:12px;color:var(--sub);padding:8px 10px 2px}
+main{max-width:860px;margin:0 auto;padding:20px 16px 64px}
+h1{font-size:26px;line-height:1.4;margin:8px 0 4px}
+h2{font-size:21px;margin:36px 0 10px;padding-top:12px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 6px}
+p,li{font-size:16px}
+a{color:var(--accent)}
+img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:10px;margin:8px 0}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:var(--soft);white-space:nowrap}
+blockquote{margin:12px 0;padding:8px 14px;background:var(--soft);border-left:4px solid var(--accent);border-radius:6px;color:var(--sub)}
+.meta{color:var(--sub);font-size:13px;margin-bottom:8px}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:40px;font-size:14px}
+.pager a{flex:1;padding:10px 12px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink)}
+.pager a.next{text-align:right}
+footer{color:var(--sub);font-size:12px;text-align:center;padding:24px 16px;border-top:1px solid var(--line)}
+</style></head>
+<body>
+<header><div class="bar"><a class="brand" href="index.html">医療知識 学習ロードマップ</a>
+<details class="nav"><summary>目次</summary><div class="menu"><a href="index.html" class="">トップ（ロードマップ・学習ログ）</a><a href="basics.html" class="cur">総論：病院の全体像</a><div class="grp">レッスン</div><a href="lessons/01-csdh.html" class="">第1回 慢性硬膜下血腫</a><a href="lessons/02-ich.html" class="">第2回 開頭血腫除去術</a><a href="lessons/sp1-sedation.html" class="">特別回 鎮静と改定</a><a href="lessons/03-evd.html" class="">第3回 脳室ドレナージ</a><a href="lessons/04-clipping.html" class="">第4回 動脈瘤クリッピング</a><a href="lessons/05-coiling.html" class="">第5回 コイル塞栓術</a></div></details></div></header>
+<main><h1>総論：病院の全体像</h1>
+<p>医師・看護師・医事課と話すために、最初に押さえておく「病院の地図」です。2026年11月15日〜18日のチャットで学んだ内容をまとめています。</p>
+<h2>1. 診療科の全体像</h2>
+<h3>外科系（主に手術で治す）</h3>
+<table>
+<thead>
+<tr>
+<th>診療科</th>
+<th>代表的な手技</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>消化器外科</td>
+<td>腹腔鏡下胆嚢摘出術（ラパコレ）、胃切除、大腸切除、ヘルニア</td>
+</tr>
+<tr>
+<td>心臓血管外科</td>
+<td>冠動脈バイパス術（CABG）、弁置換、ステントグラフト</td>
+</tr>
+<tr>
+<td>呼吸器外科</td>
+<td>胸腔鏡下肺葉切除（VATS）</td>
+</tr>
+<tr>
+<td>乳腺外科</td>
+<td>乳房部分切除、センチネルリンパ節生検</td>
+</tr>
+<tr>
+<td>脳神経外科</td>
+<td>脳動脈瘤クリッピング、微小血管減圧術（MVD）、脳腫瘍摘出、慢性硬膜下血腫の穿頭術</td>
+</tr>
+<tr>
+<td>整形外科</td>
+<td>人工膝・股関節置換、骨折の手術、脊椎固定</td>
+</tr>
+<tr>
+<td>泌尿器科</td>
+<td>ロボット支援前立腺全摘、膀胱腫瘍の内視鏡切除（TURBT）</td>
+</tr>
+<tr>
+<td>産婦人科</td>
+<td>帝王切開、子宮全摘</td>
+</tr>
+<tr>
+<td>眼科・耳鼻科</td>
+<td>白内障手術、硝子体手術、扁桃摘出、副鼻腔手術</td>
+</tr>
+<tr>
+<td>その他</td>
+<td>形成外科、小児外科、移植</td>
+</tr>
+</tbody>
+</table>
+<h3>内科系（主に薬・検査・カテーテル・内視鏡で治す）</h3>
+<ul>
+<li>循環器内科、消化器内科、呼吸器内科</li>
+<li>腎臓内科（透析など）、糖尿病・内分泌内科</li>
+<li>血液内科、膠原病・リウマチ科</li>
+<li>脳神経内科（脳梗塞、パーキンソン病など）</li>
+<li>腫瘍内科（抗がん剤）、感染症内科、総合内科</li>
+</ul>
+<p><strong>同じ臓器を内科と外科で分担する</strong>のがポイントです。</p>
+<ul>
+<li>胃がん：早期なら消化器内科が内視鏡で切除（ESD）、進行していれば消化器外科が胃切除</li>
+<li>脳：手術は脳神経外科、薬での治療は脳神経内科</li>
+</ul>
+<h3>切らない手技（カテーテル・内視鏡）</h3>
+<ul>
+<li>心臓：経皮的冠動脈インターベンション（PCI）、アブレーション</li>
+<li>消化器：内視鏡的粘膜下層剥離術（ESD）、内視鏡的逆行性胆管膵管造影（ERCP）</li>
+<li>脳：脳血管内治療（コイル塞栓、血栓回収）</li>
+</ul>
+<h3>その他の科と病院を支える部門</h3>
+<ul>
+<li>小児科、精神科、皮膚科、放射線科（読影と放射線治療）、救急科、麻酔科、リハビリテーション科</li>
+<li>病理診断科：取った組織を顕微鏡で調べて診断を確定する</li>
+<li>看護部、薬剤部、検査部、放射線部、手術部、栄養部、リハビリ部</li>
+</ul>
+<h2>2. 医事課の仕事</h2>
+<table>
+<thead>
+<tr>
+<th>業務</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>受付・会計</td>
+<td>保険資格の確認（マイナ保険証など）、窓口での会計</td>
+</tr>
+<tr>
+<td>レセプト（診療報酬請求）</td>
+<td>1か月分の診療を点数（1点＝10円）にまとめ、翌月10日までに審査支払機関へ提出（社保は支払基金、国保は国保連）</td>
+</tr>
+<tr>
+<td>入院の会計</td>
+<td>急性期病院はDPC（病名ごとの1日あたり定額）が中心。外来は出来高（行為ごとの積み上げ）</td>
+</tr>
+<tr>
+<td>その他</td>
+<td>施設基準の届出、未収金対応、統計、医師事務作業補助者（医療クラーク）との連携</td>
+</tr>
+</tbody>
+</table>
+<h3>医事課でよく聞く言葉</h3>
+<ul>
+<li><strong>算定</strong>（さんてい）：点数を請求すること</li>
+<li><strong>査定</strong>（さてい）：審査で請求が認められず減額されること</li>
+<li><strong>返戻</strong>（へんれい）：レセプトが差し戻されること</li>
+<li><strong>病名漏れ</strong>：検査や薬に対応する病名がカルテに付いていないこと</li>
+<li><strong>症状詳記</strong>（しょうじょうしょうき）：請求の理由を説明する文書</li>
+</ul>
+<h2>3. 職種ごとの説明義務</h2>
+<p>土台は医療法第1条の4（医療の担い手は適切な説明を行い、理解を得るよう努める）です。説明の中心は医師で、他の職種は専門の範囲で補足します。</p>
+<h3>医師</h3>
+<ul>
+<li>病名・病状</li>
+<li>治療の選択肢、それぞれの利点・リスク、治療しない場合（インフォームド・コンセント）</li>
+<li>手術・麻酔・輸血・造影剤検査などの同意取得</li>
+<li>入院診療計画書の説明（入院後7日以内）</li>
+<li>療養指導（医師法第23条）</li>
+<li>臨床研究・治験の説明と同意</li>
+<li>医療事故時の患者・遺族への説明</li>
+<li>セカンドオピニオン、死亡時の説明、病理解剖の承諾</li>
+</ul>
+<h3>看護師</h3>
+<ul>
+<li>入院オリエンテーション、看護計画とケアの内容</li>
+<li>採血・点滴など処置前の説明</li>
+<li>転倒・転落リスク、身体拘束を行う場合の説明と同意</li>
+<li>退院指導（在宅療養、服薬）</li>
+<li>医師の説明への同席と理解の確認</li>
+</ul>
+<h3>技師などの職種</h3>
+<ul>
+<li><strong>診療放射線技師</strong>：検査の流れ、被ばく、造影剤の副作用、MRI前の金属チェック、妊娠の確認</li>
+<li><strong>臨床検査技師</strong>：心電図・エコーなど検査方法と注意点</li>
+<li><strong>リハビリ職（PT・OT・ST）</strong>：リハビリ計画書の説明</li>
+<li><strong>臨床工学技士</strong>：在宅酸素など医療機器の使い方</li>
+<li><strong>薬剤師</strong>：服薬指導（薬剤師法で義務）</li>
+<li><strong>管理栄養士</strong>：栄養指導</li>
+</ul>
+<h3>医事課</h3>
+<ul>
+<li>自己負担額と高額療養費制度の案内</li>
+<li>領収証・明細書の無料交付</li>
+<li>保険外費用の事前説明と同意（差額ベッド代、紹介状なしの大病院受診の特別料金、診断書料など）</li>
+<li>院内掲示（個人情報の利用目的、施設基準、料金表など）</li>
+<li>カルテ開示の手続き</li>
+</ul>
+<h3>押さえておくこと</h3>
+<ul>
+<li>同意は「説明内容・日時・同席者」と一緒に記録する（同意書・カルテ）</li>
+<li>説明や指導が診療報酬の算定要件になっているものが多い（薬剤管理指導料、栄養食事指導料など）</li>
+</ul>
+<h2>4. 合併症・副作用・偶発症</h2>
+<table>
+<thead>
+<tr>
+<th>言葉</th>
+<th>意味</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>合併症</td>
+<td>手術・処置がきっかけで起こる別の問題</td>
+<td>出血、感染、神経損傷、血栓</td>
+</tr>
+<tr>
+<td>副作用</td>
+<td>薬や放射線の、治療目的以外の作用</td>
+<td>麻酔後の吐き気、造影剤アレルギー、抗けいれん薬の眠気</td>
+</tr>
+<tr>
+<td>偶発症</td>
+<td>検査・処置（内視鏡など）で起こるもの</td>
+<td>内視鏡での穿孔・出血</td>
+</tr>
+</tbody>
+</table>
+<p>患者向けの説明では、合併症を「リスク」「起こりうること」と言い換えることもよくあります。</p>
+<h2>5. よく出る素朴な疑問</h2>
+<ul>
+<li><strong>頭を打ってたんこぶができたら大丈夫？</strong> → 誤解。たんこぶは頭蓋骨の外側の出血・むくみで、内側の出血を否定できない。意識の変化、繰り返す嘔吐、強まる頭痛、麻痺、けいれん、抗血栓薬の内服があれば受診。</li>
+<li><strong>硬膜は破っても元に戻る？</strong> → 縫う、または人工硬膜・自家筋膜などでふさげば瘢痕で閉じる。閉じきらないと髄液漏や感染の原因。「デュラを閉じる」は硬膜を縫う作業のこと。</li>
+<li><strong>ドレーンは何でできている？</strong> → 主にシリコーン。側孔があり、X線に写るラインが入っている。密閉式の排液バッグにつなぐ。</li>
+</ul></main>
+<footer>医療系動画制作者のための学習教材。医学的判断の根拠にはせず、必ず専門家の監修を受けてください。</footer>
+</body></html>

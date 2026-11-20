@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>医療知識 学習ロードマップ｜医療知識 学習ロードマップ</title>
+<style>
+:root{--ink:#1f2328;--sub:#5d6670;--line:#e3e6ea;--bg:#ffffff;--soft:#f6f7f9;--accent:#2f5d9e;--warn:#9a3b2f}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.8;font-size:16px}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:12px;max-width:860px;margin:0 auto;padding:10px 16px}
+.brand{font-weight:700;color:var(--ink);text-decoration:none;font-size:15px}
+details.nav{margin-left:auto}
+details.nav summary{cursor:pointer;list-style:none;padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px}
+details.nav summary::-webkit-details-marker{display:none}
+details.nav[open] .menu{display:block}
+.menu{display:none;position:absolute;right:16px;top:52px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.08);padding:8px;max-height:70vh;overflow:auto;width:min(320px,90vw)}
+.menu a{display:block;padding:8px 10px;border-radius:8px;color:var(--ink);text-decoration:none;font-size:14px}
+.menu a:hover,.menu a.cur{background:var(--soft)}
+.menu .grp{font-size:12px;color:var(--sub);padding:8px 10px 2px}
+main{max-width:860px;margin:0 auto;padding:20px 16px 64px}
+h1{font-size:26px;line-height:1.4;margin:8px 0 4px}
+h2{font-size:21px;margin:36px 0 10px;padding-top:12px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 6px}
+p,li{font-size:16px}
+a{color:var(--accent)}
+img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:10px;margin:8px 0}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:var(--soft);white-space:nowrap}
+blockquote{margin:12px 0;padding:8px 14px;background:var(--soft);border-left:4px solid var(--accent);border-radius:6px;color:var(--sub)}
+.meta{color:var(--sub);font-size:13px;margin-bottom:8px}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:40px;font-size:14px}
+.pager a{flex:1;padding:10px 12px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink)}
+.pager a.next{text-align:right}
+footer{color:var(--sub);font-size:12px;text-align:center;padding:24px 16px;border-top:1px solid var(--line)}
+</style></head>
+<body>
+<header><div class="bar"><a class="brand" href="index.html">医療知識 学習ロードマップ</a>
+<details class="nav"><summary>目次</summary><div class="menu"><a href="index.html" class="cur">トップ（ロードマップ・学習ログ）</a><a href="basics.html" class="">総論：病院の全体像</a><div class="grp">レッスン</div><a href="lessons/01-csdh.html" class="">第1回 慢性硬膜下血腫</a><a href="lessons/02-ich.html" class="">第2回 開頭血腫除去術</a><a href="lessons/sp1-sedation.html" class="">特別回 鎮静と改定</a><a href="lessons/03-evd.html" class="">第3回 脳室ドレナージ</a><a href="lessons/04-clipping.html" class="">第4回 動脈瘤クリッピング</a><a href="lessons/05-coiling.html" class="">第5回 コイル塞栓術</a></div></details></div></header>
+<main><h1>医療知識 学習ロードマップ</h1>
+<p>医療系動画の制作者が、医師・看護師・医事課と会話できるようになり、企画と台本を医学的に正確に作れるようになるための教材です。毎日17:50ごろに1手技ずつレッスンが届き、このサイトに追加されます。</p>
+<h2>使い方</h2>
+<ul>
+<li>上のメニューから各回を開けます。各回は「どんな時に必要か → 解剖 → 手術の流れ → 入院生活 → 合併症 → 素朴な疑問 → 説明と同意 → 点数 → 用語 → 動画制作の視点」の順に並んでいます</li>
+<li><a href="basics.html">総論</a>には、診療科の全体像・医事課の仕事・職種別の説明義務をまとめています</li>
+<li>質問は届いたレッスンに返信するか、元のチャットで聞いてください</li>
+</ul>
+<h2>全体ロードマップ</h2>
+<table>
+<thead>
+<tr>
+<th>フェーズ</th>
+<th>内容</th>
+<th>時期</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 総論</td>
+<td>診療科、医事課、説明義務</td>
+<td>完了（11/15）</td>
+</tr>
+<tr>
+<td>1 脳神経外科 30手技</td>
+<td>緊急 → 血管 → 腫瘍 → 機能 → 脊椎</td>
+<td>11/14〜12/14（実施中）</td>
+</tr>
+<tr>
+<td>2 外科系の主要手術</td>
+<td>消化器・心臓血管・呼吸器・整形・泌尿器・産婦人科など</td>
+<td>12月中旬〜（案）</td>
+</tr>
+<tr>
+<td>3 切らない手技</td>
+<td>心臓カテーテル、内視鏡治療（ESD・ERCP）など</td>
+<td>案</td>
+</tr>
+<tr>
+<td>4 麻酔と手術室</td>
+<td>麻酔の種類、術前評価、手術室の職種と流れ</td>
+<td>案</td>
+</tr>
+<tr>
+<td>5 病院の仕組みと医事</td>
+<td>外来・検査・入院の流れ、レセプト、DPC、施設基準</td>
+<td>案</td>
+</tr>
+<tr>
+<td>6 説明と書類</td>
+<td>同意書、入院診療計画書、職種別の説明義務の詳細</td>
+<td>案</td>
+</tr>
+</tbody>
+</table>
+<p>フェーズ2以降は案です。順番も中身も変えられます。</p>
+<h2>フェーズ1：脳神経外科 30手技</h2>
+<table>
+<thead>
+<tr>
+<th>No</th>
+<th>配信日</th>
+<th>手技</th>
+<th>グループ</th>
+<th>状況</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>11/15</td>
+<td><a href="lessons/01-csdh.html">慢性硬膜下血腫の穿頭血腫洗浄術</a></td>
+<td>緊急・外傷</td>
+<td>配信済み（試作）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>11/15</td>
+<td><a href="lessons/02-ich.html">開頭血腫除去術（脳出血）</a></td>
+<td>緊急・外傷</td>
+<td>配信済み</td>
+</tr>
+<tr>
+<td>特</td>
+<td>11/16</td>
+<td><a href="lessons/sp1-sedation.html">特別回：鎮静と令和8年度改定</a></td>
+<td>麻酔</td>
+<td>配信済み</td>
+</tr>
+<tr>
+<td>3</td>
+<td>11/17</td>
+<td><a href="lessons/03-evd.html">脳室ドレナージ</a></td>
+<td>緊急・外傷</td>
+<td>配信済み</td>
+</tr>
+<tr>
+<td>4</td>
+<td>11/18</td>
+<td><a href="lessons/04-clipping.html">脳動脈瘤クリッピング術</a></td>
+<td>血管</td>
+<td>配信済み</td>
+</tr>
+<tr>
+<td>5</td>
+<td>11/19</td>
+<td><a href="lessons/05-coiling.html">脳動脈瘤コイル塞栓術</a></td>
+<td>血管</td>
+<td>配信済み</td>
+</tr>
+<tr>
+<td>6</td>
+<td>11/20</td>
+<td>機械的血栓回収療法</td>
+<td>血管</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>7</td>
+<td>11/21</td>
+<td>頸動脈内膜剥離術（CEA）</td>
+<td>血管</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>8</td>
+<td>11/22</td>
+<td>頸動脈ステント留置術（CAS）</td>
+<td>血管</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>9</td>
+<td>11/23</td>
+<td>STA-MCAバイパス術</td>
+<td>血管</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>10</td>
+<td>11/24</td>
+<td>もやもや病の血行再建術</td>
+<td>血管</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>11</td>
+<td>11/25</td>
+<td>脳動静脈奇形（AVM）摘出術</td>
+<td>血管</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>12</td>
+<td>11/26</td>
+<td>微小血管減圧術（MVD）：三叉神経痛</td>
+<td>機能</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>13</td>
+<td>11/27</td>
+<td>微小血管減圧術（MVD）：片側顔面けいれん</td>
+<td>機能</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>14</td>
+<td>11/28</td>
+<td>ガンマナイフ</td>
+<td>腫瘍・機能</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>15</td>
+<td>11/29</td>
+<td>神経膠腫摘出術と覚醒下手術</td>
+<td>腫瘍</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>16</td>
+<td>11/30</td>
+<td>髄膜腫摘出術</td>
+<td>腫瘍</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>17</td>
+<td>12/1</td>
+<td>経鼻内視鏡下 下垂体腺腫摘出術</td>
+<td>腫瘍</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>18</td>
+<td>12/2</td>
+<td>聴神経腫瘍摘出術</td>
+<td>腫瘍</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>19</td>
+<td>12/3</td>
+<td>減圧開頭術（外減圧）</td>
+<td>緊急・外傷</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>20</td>
+<td>12/4</td>
+<td>頭蓋形成術</td>
+<td>緊急・外傷</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>21</td>
+<td>12/5</td>
+<td>脳室-腹腔シャント術（VPシャント）</td>
+<td>水頭症</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>22</td>
+<td>12/6</td>
+<td>内視鏡的第三脳室底開窓術（ETV）</td>
+<td>水頭症</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>23</td>
+<td>12/7</td>
+<td>脳深部刺激療法（DBS）</td>
+<td>機能</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>24</td>
+<td>12/8</td>
+<td>てんかん外科</td>
+<td>機能</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>25</td>
+<td>12/9</td>
+<td>迷走神経刺激療法（VNS）</td>
+<td>機能</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>26</td>
+<td>12/10</td>
+<td>頸椎前方除圧固定術</td>
+<td>脊椎</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>27</td>
+<td>12/11</td>
+<td>頸椎椎弓形成術</td>
+<td>脊椎</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>28</td>
+<td>12/12</td>
+<td>腰椎椎間板ヘルニア摘出術</td>
+<td>脊椎</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>29</td>
+<td>12/13</td>
+<td>腰椎固定術</td>
+<td>脊椎</td>
+<td>予定</td>
+</tr>
+<tr>
+<td>30</td>
+<td>12/14</td>
+<td>キアリ奇形に対する大後頭孔減圧術</td>
+<td>脊椎</td>
+<td>予定</td>
+</tr>
+</tbody>
+</table>
+<h2>学習ログ</h2>
+<p>新しいものが上です。</p>
+<table>
+<thead>
+<tr>
+<th>日付</th>
+<th>種類</th>
+<th>内容</th>
+<th>要点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11/20</td>
+<td>作業</td>
+<td>教材をGitHubリポジトリと教材サイトに移行</td>
+<td>第2回・特別回・第3回は作り直し、第4・5回は要点版を作成</td>
+</tr>
+<tr>
+<td>11/19</td>
+<td>レッスン</td>
+<td><a href="lessons/05-coiling.html">第5回 コイル塞栓術</a></td>
+<td>全身麻酔が多い・未破裂で入院数日〜1週。再開通約2割・再治療約1割。K178「1」66,270点</td>
+</tr>
+<tr>
+<td>11/18</td>
+<td>疑問</td>
+<td>歯科麻酔医は改定で何を説明しなければならなくなった？</td>
+<td>新しい説明義務の条文は確認できず。実務では意識の有無・絶飲食・リスク・担当者・費用の説明が増える</td>
+</tr>
+<tr>
+<td>11/18</td>
+<td>レッスン</td>
+<td><a href="lessons/04-clipping.html">第4回 動脈瘤クリッピング</a></td>
+<td>全身麻酔・未破裂で入院10日〜2週。治療検討は5〜7mm以上。K177「1」114,070点（箇所＝病変の数）</td>
+</tr>
+<tr>
+<td>11/17</td>
+<td>レッスン</td>
+<td><a href="lessons/03-evd.html">第3回 脳室ドレナージ</a></td>
+<td>0点は外耳孔、設定圧は滴下点の高さ。感染が最重要。K145 2,330点（初回のみ）</td>
+</tr>
+<tr>
+<td>11/16</td>
+<td>特別回</td>
+<td><a href="lessons/sp1-sedation.html">鎮静と令和8年度改定</a></td>
+<td>L001・L007新設、歯科K005・K006新設。深さ・時間・担当体制で区分</td>
+</tr>
+<tr>
+<td>11/15</td>
+<td>レッスン</td>
+<td><a href="lessons/02-ich.html">第2回 開頭血腫除去術</a></td>
+<td>全身麻酔。被殻31mL以上・小脳3cm以上が目安。K164「3」47,020点</td>
+</tr>
+<tr>
+<td>11/15</td>
+<td>疑問</td>
+<td>術後はドレーンをつけたまま動ける？</td>
+<td>1〜2日はベッド上安静、抜去後に付き添い歩行</td>
+</tr>
+<tr>
+<td>11/15</td>
+<td>疑問</td>
+<td>ドレーンは何でできている？</td>
+<td>主にシリコーン。側孔とX線に写るライン</td>
+</tr>
+<tr>
+<td>11/15</td>
+<td>疑問</td>
+<td>硬膜は破っても元に戻る？</td>
+<td>縫う・人工硬膜でふさぎ瘢痕で治る。不十分だと髄液漏</td>
+</tr>
+<tr>
+<td>11/15</td>
+<td>疑問</td>
+<td>たんこぶができたら大丈夫？</td>
+<td>誤解。頭蓋骨の外の出血で、中の出血は否定できない</td>
+</tr>
+<tr>
+<td>11/15</td>
+<td>疑問</td>
+<td>慢性硬膜下血腫は古い血液？</td>
+<td>被膜の血管から出血を繰り返し、固まらず増える</td>
+</tr>
+<tr>
+<td>11/15</td>
+<td>レッスン</td>
+<td><a href="lessons/01-csdh.html">第1回 慢性硬膜下血腫</a></td>
+<td>局所麻酔・30分〜1時間・再発約1割。K164-2</td>
+</tr>
+<tr>
+<td>11/15</td>
+<td>総論</td>
+<td><a href="basics.html">診療科・医事課・説明義務</a></td>
+<td>内科と外科の分担、レセプトは翌月10日まで、説明の中心は医師</td>
+</tr>
+</tbody>
+</table></main>
+<footer>医療系動画制作者のための学習教材。医学的判断の根拠にはせず、必ず専門家の監修を受けてください。</footer>
+</body></html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第3回 脳室ドレナージ｜医療知識 学習ロードマップ</title>
+<style>
+:root{--ink:#1f2328;--sub:#5d6670;--line:#e3e6ea;--bg:#ffffff;--soft:#f6f7f9;--accent:#2f5d9e;--warn:#9a3b2f}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.8;font-size:16px}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:12px;max-width:860px;margin:0 auto;padding:10px 16px}
+.brand{font-weight:700;color:var(--ink);text-decoration:none;font-size:15px}
+details.nav{margin-left:auto}
+details.nav summary{cursor:pointer;list-style:none;padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px}
+details.nav summary::-webkit-details-marker{display:none}
+details.nav[open] .menu{display:block}
+.menu{display:none;position:absolute;right:16px;top:52px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.08);padding:8px;max-height:70vh;overflow:auto;width:min(320px,90vw)}
+.menu a{display:block;padding:8px 10px;border-radius:8px;color:var(--ink);text-decoration:none;font-size:14px}
+.menu a:hover,.menu a.cur{background:var(--soft)}
+.menu .grp{font-size:12px;color:var(--sub);padding:8px 10px 2px}
+main{max-width:860px;margin:0 auto;padding:20px 16px 64px}
+h1{font-size:26px;line-height:1.4;margin:8px 0 4px}
+h2{font-size:21px;margin:36px 0 10px;padding-top:12px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 6px}
+p,li{font-size:16px}
+a{color:var(--accent)}
+img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:10px;margin:8px 0}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:var(--soft);white-space:nowrap}
+blockquote{margin:12px 0;padding:8px 14px;background:var(--soft);border-left:4px solid var(--accent);border-radius:6px;color:var(--sub)}
+.meta{color:var(--sub);font-size:13px;margin-bottom:8px}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:40px;font-size:14px}
+.pager a{flex:1;padding:10px 12px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink)}
+.pager a.next{text-align:right}
+footer{color:var(--sub);font-size:12px;text-align:center;padding:24px 16px;border-top:1px solid var(--line)}
+</style></head>
+<body>
+<header><div class="bar"><a class="brand" href="../index.html">医療知識 学習ロードマップ</a>
+<details class="nav"><summary>目次</summary><div class="menu"><a href="../index.html" class="">トップ（ロードマップ・学習ログ）</a><a href="../basics.html" class="">総論：病院の全体像</a><div class="grp">レッスン</div><a href="../lessons/01-csdh.html" class="">第1回 慢性硬膜下血腫</a><a href="../lessons/02-ich.html" class="">第2回 開頭血腫除去術</a><a href="../lessons/sp1-sedation.html" class="">特別回 鎮静と改定</a><a href="../lessons/03-evd.html" class="cur">第3回 脳室ドレナージ</a><a href="../lessons/04-clipping.html" class="">第4回 動脈瘤クリッピング</a><a href="../lessons/05-coiling.html" class="">第5回 コイル塞栓術</a></div></details></div></header>
+<main><div class="meta">配信日：2026-11-17　分野：脳神経外科</div><h1>第3回 脳室ドレナージ</h1>
+<p>読み方：のうしつドレナージ</p>
+<blockquote>
+<p>この回は、元の配信チャットが読めないため2026-11-20に作り直した版です。</p>
+</blockquote>
+<h2>ひとことで言うと</h2>
+<p>頭蓋骨に小さな穴を開け、脳の中の「脳室」という髄液のたまり場まで細い管を入れて、たまりすぎた髄液や血液を体の外へ逃がす処置です。頭の中の圧（頭蓋内圧）を下げて命を守る、脳外科の代表的な緊急処置です。</p>
+<h2>どんな時に必要になるか</h2>
+<p><a href="../figures/03/fig2_indication.png" target="_blank"><img alt="図2 脳室ドレナージが必要になる流れ" src="../figures/03/fig2_indication.png" /></a></p>
+<p><strong>病気の成り立ち</strong></p>
+<ul>
+<li>脳室では1日に約500mLの髄液が作られ、決まった通り道を流れて吸収される</li>
+<li>出血や腫瘍で通り道がふさがると、髄液がたまって脳室がふくらむ（急性水頭症）。頭の中の圧が上がり、意識が悪くなる</li>
+</ul>
+<p><strong>必要になる主な場面</strong></p>
+<ul>
+<li>くも膜下出血（脳動脈瘤の破裂）に伴う急性水頭症</li>
+<li>脳室内に広がる脳出血（視床出血など）</li>
+<li>小脳出血・小脳の腫瘍で第4脳室が圧迫されるとき</li>
+<li>重症頭部外傷で頭蓋内圧を測りながら管理するとき</li>
+<li>脳の手術で、髄液を抜いて脳をしぼませ、操作しやすくするため</li>
+</ul>
+<p><strong>急ぐ度合い</strong></p>
+<ul>
+<li>緊急。意識低下とCTでの脳室拡大があれば当日すぐ</li>
+</ul>
+<p><strong>手術以外の選択肢</strong></p>
+<ul>
+<li>一時的な処置なので、原因の病気（動脈瘤、出血、腫瘍）の治療と組み合わせる</li>
+<li>長く必要な場合はVPシャント（第21回）などの「体の中に埋め込む」方法へ切り替える</li>
+</ul>
+<p><strong>手術に至る典型的な流れ</strong></p>
+<p>くも膜下出血・脳出血で救急搬送 → CTで脳室拡大 → 脳神経外科医が判断 → ICU・救急・手術室で緊急に留置</p>
+<h2>関係する解剖</h2>
+<p><a href="../figures/03/fig1_system.png" target="_blank"><img alt="図1 脳室ドレナージの仕組み" src="../figures/03/fig1_system.png" /></a></p>
+<ul>
+<li>左右の大脳の中に「側脳室」があり、そこから第3脳室 → 中脳水道 → 第4脳室へと髄液が流れる</li>
+<li>管は多くの場合、前頭部の決まった点（コッヘル点：髪の生え際の少し後ろ、正中から指2本分ほど外側）から側脳室の前の部分へ入れる</li>
+</ul>
+<h2>麻酔と体位</h2>
+<ul>
+<li>局所麻酔（意識障害がある患者が多い）。挿管されている患者では鎮静下</li>
+<li>あお向けで頭をやや上げる</li>
+</ul>
+<h2>手術の流れ</h2>
+<ol>
+<li>剃毛・消毒、局所麻酔</li>
+<li>皮膚を小さく切り、ドリルで頭蓋骨に穴を開ける（穿頭）</li>
+<li>硬膜を小さく開け、脳室カテーテルを決まった方向・深さ（皮膚から約5〜6cm）で進める</li>
+<li>髄液が流れ出ることを確認。必要なら圧を測る</li>
+<li>管を皮膚の下に数cmくぐらせてから外に出し（感染予防）、固定</li>
+<li>外の回路（三方活栓・チャンバー・排液バッグ）につなぎ、医師が指示した高さに設定</li>
+</ol>
+<p>所要時間：30分前後。ベッドサイドで行うことも、手術室で行うこともある</p>
+<h2>回路の管理（図1）</h2>
+<ul>
+<li><strong>0点</strong>：外耳孔（耳の穴）の高さを、脳室の高さの目安にする</li>
+<li><strong>設定圧</strong>：0点からチャンバーの滴下点までの高さ（cmH₂O）。高くすると出にくく、低くすると出やすい</li>
+<li><strong>クランプ</strong>：体位変換・移動・検査の前には必ず管を閉じる。開けたままベッドの高さを変えると、急に大量に抜けて危険（オーバードレナージ）</li>
+<li>排液の量・色（血性→キサントクロミー（黄色）→透明）、管の中の液面が拍動に合わせて揺れるか（拍動）を観察</li>
+</ul>
+<h2>所要時間・入院期間</h2>
+<ul>
+<li>留置期間：多くは1〜2週間以内。感染のリスクが上がるため長く入れすぎない</li>
+<li>入院期間は原因の病気（くも膜下出血など）で決まる。数週間〜1か月以上のことが多い</li>
+</ul>
+<h2>術後の入院生活</h2>
+<ul>
+<li>ICUで管理。ドレーンが入っている間は安静度に制限がある（頭の高さを固定）</li>
+<li>抜去前には「クランプテスト」（管を閉じて1〜2日様子を見る）。意識が悪くならず、CTで脳室が大きくならなければ抜去</li>
+<li>抜去後、数日で歩行やリハビリが進む（原因の病気次第）</li>
+</ul>
+<h2>合併症と副作用</h2>
+<p><strong>留置時</strong></p>
+<ul>
+<li>出血（管の通り道や脳室内）。抗血栓薬の内服や出血しやすい体質で注意</li>
+<li>管の位置がずれる、髄液が出ない</li>
+</ul>
+<p><strong>留置中</strong></p>
+<ul>
+<li><strong>感染（脳室炎・髄膜炎）</strong>：最も重要。報告により幅があるが数%〜1割前後。発熱、髄液の濁り、意識の変化で気づく。予防策をまとめて行う「ケアバンドル」導入で、1,000カテーテル日あたり13.4件から2.5件に減ったという報告がある</li>
+<li>オーバードレナージ：髄液が抜けすぎて頭痛・意識低下、硬膜下血腫、くも膜下出血の場合は動脈瘤の再破裂のリスク</li>
+<li>アンダードレナージ・閉塞：血のかたまりで詰まり、頭蓋内圧が上がる</li>
+<li>事故抜去（せん妄の患者が引き抜くなど）、髄液漏</li>
+</ul>
+<p><strong>晩期</strong></p>
+<ul>
+<li>水頭症が残り、シャント手術が必要になることがある</li>
+</ul>
+<p><strong>医師の説明でよくある言い方</strong></p>
+<ul>
+<li>「命を守るための緊急の処置です。管が入っている間は感染に最も注意します」</li>
+</ul>
+<p><strong>看護の観察</strong></p>
+<ul>
+<li>0点と設定圧の確認（勤務交代ごと・体位変換ごと）、クランプの開閉、排液量（1時間ごと）・性状、拍動、刺入部、体温、意識・瞳孔</li>
+</ul>
+<h2>素朴な疑問Q&amp;A</h2>
+<p><strong>Q. 脳に管を刺して大丈夫なの？</strong>
+A. 管は脳のなかでも、傷ついても症状が出にくい場所（前頭葉の決まった部分）を通るように入れます。それでも出血などのリスクはゼロではないため、緊急で必要なときに行います。</p>
+<p><strong>Q. 髄液を抜いて減らないの？</strong>
+A. 髄液は1日に約500mL作られ続けるので、抜いても作られます。抜く量は設定圧で調整します。</p>
+<p><strong>Q. なぜ耳の穴が基準なの？</strong>
+A. 寝た姿勢では、外耳孔の高さが脳室の高さにほぼ一致するためです。</p>
+<h2>説明と同意のポイント</h2>
+<ul>
+<li><strong>医師</strong>：緊急性、出血・感染のリスク、留置期間、シャントが必要になる可能性。意識障害のため家族への説明が中心</li>
+<li><strong>看護師</strong>：管が入っている間の安静、触らない・引っ張らないこと、家族の面会時の注意</li>
+<li><strong>診療放射線技師</strong>：CTで管の位置と脳室の大きさを確認</li>
+<li><strong>医事課</strong>：手術料は初回のみ。翌日以降のドレナージは処置料で日ごとに算定</li>
+</ul>
+<h2>診療報酬（令和8年）</h2>
+<table>
+<thead>
+<tr>
+<th>区分</th>
+<th>名称</th>
+<th>点数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>K145</td>
+<td>穿頭脳室ドレナージ術</td>
+<td>2,330点</td>
+</tr>
+<tr>
+<td>J002「1」</td>
+<td>ドレーン法 持続的吸引を行うもの（1日につき）</td>
+<td>50点</td>
+</tr>
+<tr>
+<td>J002「2」</td>
+<td>ドレーン法 その他のもの（1日につき）</td>
+<td>25点</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>K145は初回に限り算定し、2回目以降のドレナージはJ002で算定する（通知）</li>
+<li>穿頭術の手技料はK145に含まれ、別に算定できない</li>
+</ul>
+<h2>現場で使われる言葉</h2>
+<ul>
+<li><strong>EVD</strong>（イーブイディー）：脳室ドレナージ external ventricular drain</li>
+<li><strong>ベントリクル</strong>：脳室（ventricle）</li>
+<li><strong>0点合わせ</strong>：外耳孔に回路の基準を合わせること</li>
+<li><strong>クランプ</strong>：管を閉じること／<strong>開放</strong></li>
+<li><strong>オーバードレナージ</strong>：抜けすぎ</li>
+<li><strong>キサントクロミー</strong>：出血後に髄液が黄色くなること</li>
+<li><strong>ICP</strong>（アイシーピー）：頭蓋内圧</li>
+</ul>
+<h2>動画制作で役立つ視点</h2>
+<ul>
+<li>「脳に管が入っている」場面は刺激が強い。模式図で回路の仕組み（0点・設定圧）を見せると伝わりやすい</li>
+<li>回路は「高さ」で量を調整する、という点が独特で視覚化しやすい</li>
+<li>体位変換前のクランプなど、看護の安全確認の場面は動画のテーマになりやすい</li>
+</ul>
+<h2>参考動画</h2>
+<p>元の回の動画リンクは確認できなかったため、今回は掲載していません。次の更新で追加します。</p>
+<h2>確認クイズ</h2>
+<ol>
+<li>脳室ドレナージの0点の目安になるのは体のどこ？</li>
+<li>設定圧を上げると、髄液は出やすくなる？出にくくなる？</li>
+<li>K145は留置期間中に毎日算定できる？</li>
+</ol>
+<p>答え：① 外耳孔　② 出にくくなる　③ できない。初回のみK145、2回目以降はJ002ドレーン法</p>
+<h2>出典</h2>
+<ul>
+<li><a href="https://clinicalsup.jp/jpoc/shinryou.aspx?file=ika_2_10_1_3_1%2Fk145.html" target="_blank" rel="noopener">K145 穿頭脳室ドレナージ術（今日の臨床サポート、令和8年版）</a></li>
+<li><a href="https://shirobon.net/medicalfee/latest/ika/r08_ika/r08i_ch2/r08i2_pa9/r08i29_sec1/r08i291_cls1/r08i2911_J002.html" target="_blank" rel="noopener">J002 ドレーン法（しろぼんねっと、令和8年）</a></li>
+<li><a href="https://webview.isho.jp/journal/detail/abs/10.11477/mf.3102200293" target="_blank" rel="noopener">脳室ドレナージ—頭蓋内の解剖・生理学を理解して適切な管理を行う（医学書院）</a></li>
+<li><a href="https://www.kango-roo.com/learning/3848/" target="_blank" rel="noopener">脳神経外科領域のドレナージ（看護roo!）</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10349458/" target="_blank" rel="noopener">External ventriculostomy-associated infection reduction after updating a care bundle（PMC）</a></li>
+</ul><div class="pager"><a href="sp1-sedation.html">← 特別回 鎮静と改定</a><a class="next" href="04-clipping.html">第4回 動脈瘤クリッピング →</a></div></main>
+<footer>医療系動画制作者のための学習教材。医学的判断の根拠にはせず、必ず専門家の監修を受けてください。</footer>
+</body></html>

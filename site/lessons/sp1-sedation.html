@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>特別回 鎮静と令和8年度診療報酬改定｜医療知識 学習ロードマップ</title>
+<style>
+:root{--ink:#1f2328;--sub:#5d6670;--line:#e3e6ea;--bg:#ffffff;--soft:#f6f7f9;--accent:#2f5d9e;--warn:#9a3b2f}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.8;font-size:16px}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:12px;max-width:860px;margin:0 auto;padding:10px 16px}
+.brand{font-weight:700;color:var(--ink);text-decoration:none;font-size:15px}
+details.nav{margin-left:auto}
+details.nav summary{cursor:pointer;list-style:none;padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px}
+details.nav summary::-webkit-details-marker{display:none}
+details.nav[open] .menu{display:block}
+.menu{display:none;position:absolute;right:16px;top:52px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.08);padding:8px;max-height:70vh;overflow:auto;width:min(320px,90vw)}
+.menu a{display:block;padding:8px 10px;border-radius:8px;color:var(--ink);text-decoration:none;font-size:14px}
+.menu a:hover,.menu a.cur{background:var(--soft)}
+.menu .grp{font-size:12px;color:var(--sub);padding:8px 10px 2px}
+main{max-width:860px;margin:0 auto;padding:20px 16px 64px}
+h1{font-size:26px;line-height:1.4;margin:8px 0 4px}
+h2{font-size:21px;margin:36px 0 10px;padding-top:12px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 6px}
+p,li{font-size:16px}
+a{color:var(--accent)}
+img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:10px;margin:8px 0}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:var(--soft);white-space:nowrap}
+blockquote{margin:12px 0;padding:8px 14px;background:var(--soft);border-left:4px solid var(--accent);border-radius:6px;color:var(--sub)}
+.meta{color:var(--sub);font-size:13px;margin-bottom:8px}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:40px;font-size:14px}
+.pager a{flex:1;padding:10px 12px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink)}
+.pager a.next{text-align:right}
+footer{color:var(--sub);font-size:12px;text-align:center;padding:24px 16px;border-top:1px solid var(--line)}
+</style></head>
+<body>
+<header><div class="bar"><a class="brand" href="../index.html">医療知識 学習ロードマップ</a>
+<details class="nav"><summary>目次</summary><div class="menu"><a href="../index.html" class="">トップ（ロードマップ・学習ログ）</a><a href="../basics.html" class="">総論：病院の全体像</a><div class="grp">レッスン</div><a href="../lessons/01-csdh.html" class="">第1回 慢性硬膜下血腫</a><a href="../lessons/02-ich.html" class="">第2回 開頭血腫除去術</a><a href="../lessons/sp1-sedation.html" class="cur">特別回 鎮静と改定</a><a href="../lessons/03-evd.html" class="">第3回 脳室ドレナージ</a><a href="../lessons/04-clipping.html" class="">第4回 動脈瘤クリッピング</a><a href="../lessons/05-coiling.html" class="">第5回 コイル塞栓術</a></div></details></div></header>
+<main><div class="meta">配信日：2026-11-16　分野：麻酔</div><h1>特別回 鎮静（ちんせい）と令和8年度診療報酬改定</h1>
+<blockquote>
+<p>この回は、元の配信チャットが読めないため2026-11-20に作り直した版です。11/18のチャットで確認した「歯科麻酔医の説明義務」の内容も反映しています。</p>
+</blockquote>
+<h2>ひとことで言うと</h2>
+<p>鎮静は、薬で不安や痛みを和らげ、眠ったような状態にして検査や治療を受けやすくすることです。全身麻酔との違いは「深さ」と「気道確保（呼吸の通り道を器具で確保するか）」です。令和8年度（2026年6月施行）の改定で、意識がなくなる鎮静が「時間」と「深さ」と「担当体制」で細かく評価されるようになり、医科と歯科で同じ考え方の区分が新設されました。</p>
+<h2>鎮静の深さ</h2>
+<p><a href="../figures/sp1/fig1_levels.png" target="_blank"><img alt="図1 鎮静の深さと令和8年度の区分" src="../figures/sp1/fig1_levels.png" /></a></p>
+<p>米国麻酔科学会（ASA）の分類が国内でも使われています。</p>
+<table>
+<thead>
+<tr>
+<th>段階</th>
+<th>患者の状態</th>
+<th>呼吸・循環</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>軽い鎮静（抗不安）</td>
+<td>普通に会話できる</td>
+<td>影響なし</td>
+</tr>
+<tr>
+<td>中等度鎮静（意識下鎮静）</td>
+<td>呼びかけ・軽い刺激で目を開けて応答する</td>
+<td>通常は保たれる</td>
+</tr>
+<tr>
+<td>深鎮静</td>
+<td>強い刺激や痛みでやっと反応する</td>
+<td>呼吸が弱まりやすく、補助が必要なことがある</td>
+</tr>
+<tr>
+<td>全身麻酔</td>
+<td>痛みにも反応しない</td>
+<td>気道確保・人工呼吸が必要なことが多い</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>段階はなめらかにつながっていて、薬の量や体質で「思ったより深く」なりやすい</li>
+<li>そのため、狙った段階より1つ深い段階に対応できる準備（人・器具・技術）が必要とされる</li>
+</ul>
+<h2>どんな時に使うか</h2>
+<ul>
+<li><strong>検査</strong>：胃・大腸内視鏡、気管支鏡、小児のMRI・CT</li>
+<li><strong>処置・治療</strong>：内視鏡治療（ESD・ERCP）、カテーテル治療、骨髄穿刺、心臓の除細動</li>
+<li><strong>歯科</strong>：歯科治療恐怖症、嘔吐反射が強い人、知的障害がある人、配慮が必要な持病がある人、インプラント・親知らずの抜歯など</li>
+<li><strong>ICU</strong>：人工呼吸器をつけている患者の苦痛を和らげる（集中治療の鎮静は今回の区分とは別）</li>
+</ul>
+<p><strong>誰が担当するか</strong></p>
+<ul>
+<li>麻酔科医（麻酔科標榜医）、検査・治療をする各科の医師、歯科医師（歯科麻酔科医を含む）</li>
+<li>看護師：監視（モニター・呼吸の観察）と記録、回復室での観察</li>
+<li>安全のため、治療をする人とは別に「監視に専念する人」を置くことが望ましいとされる</li>
+</ul>
+<h2>使う薬</h2>
+<table>
+<thead>
+<tr>
+<th>薬</th>
+<th>特徴</th>
+<th>拮抗薬（効果を打ち消す薬）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ミダゾラム（ベンゾジアゼピン系）</td>
+<td>不安を和らげ、記憶が残りにくい（健忘）</td>
+<td>フルマゼニル</td>
+</tr>
+<tr>
+<td>プロポフォール</td>
+<td>効き始めも覚めるのも速い。深くなりやすい</td>
+<td>なし</td>
+</tr>
+<tr>
+<td>デクスメデトミジン</td>
+<td>呼吸を抑えにくい。呼びかけで目を覚ましやすい</td>
+<td>なし</td>
+</tr>
+<tr>
+<td>亜酸化窒素（笑気）</td>
+<td>吸入。歯科の吸入鎮静法で使う</td>
+<td>なし（吸入を止めると速く覚める）</td>
+</tr>
+<tr>
+<td>鎮痛薬（オピオイド）</td>
+<td>痛みを抑える。併用で呼吸を抑えやすい</td>
+<td>ナロキソン</td>
+</tr>
+</tbody>
+</table>
+<h2>安全管理</h2>
+<ul>
+<li><strong>モニター</strong>：SpO2（血液中の酸素）、血圧、脈拍、必要に応じ心電図・呼気の二酸化炭素（カプノグラフィ）</li>
+<li><strong>記録</strong>：歯科の考え方（日本歯科医学会）では、静脈内鎮静法・歯科静脈麻酔で5分ごとのバイタル、薬の投与量・時間、有害事象を記録する</li>
+<li><strong>絶飲食</strong>：深い鎮静・静脈麻酔では全身麻酔に準じ、水などは2時間前まで、牛乳・軽食は6時間前まで、通常の食事は8時間前まで</li>
+<li><strong>緊急時の体制</strong>：呼吸が止まりそうなときに、器具で気道を確保して全身麻酔に切り替えられる準備</li>
+<li><strong>帰宅</strong>：付き添い、当日の運転を控えるなど（方法・施設で異なる）</li>
+</ul>
+<h2>合併症と副作用</h2>
+<ul>
+<li><strong>呼吸抑制・低酸素</strong>：最も重要。舌が落ち込んで空気の通り道がふさがる（上気道閉塞）。あごを持ち上げる、酸素、拮抗薬、補助換気</li>
+<li><strong>低血圧・徐脈</strong>：特にプロポフォール・デクスメデトミジン</li>
+<li><strong>誤嚥</strong>：胃の内容物が肺に入る。絶飲食で予防</li>
+<li><strong>覚醒遅延・ふらつき</strong>：転倒に注意</li>
+<li><strong>せん妄・興奮</strong>：高齢者・小児で起こりやすい</li>
+<li><strong>アレルギー</strong>：まれ</li>
+<li><strong>注意が必要な人</strong>：高度肥満、いびき・睡眠時無呼吸症候群、小顎症、扁桃肥大、重い心臓・肺の病気</li>
+</ul>
+<h2>令和8年度改定で何が変わったか</h2>
+<h3>医科：麻酔料の再編</h3>
+<p><a href="../figures/sp1/fig2_flow.png" target="_blank"><img alt="図2 医事課の区分選択フロー（医科）" src="../figures/sp1/fig2_flow.png" /></a></p>
+<table>
+<thead>
+<tr>
+<th>区分</th>
+<th>名称</th>
+<th>点数</th>
+<th>ポイント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L001（新設）</td>
+<td>吸入麻酔又は静脈麻酔による鎮静</td>
+<td>「1」10分未満 120点／「2」10分以上20分未満 310点</td>
+<td>意識消失を伴う吸入麻酔・静脈麻酔。検査・画像診断・処置・手術に伴うもの</td>
+</tr>
+<tr>
+<td>L007（新設）</td>
+<td>吸入麻酔又は静脈麻酔による深鎮静（声門上器具又は気管挿管による気道確保を伴わないもの）</td>
+<td>「1」2,600点／「2」1,700点／「3」900点／「4」600点</td>
+<td>20分以上。体制で4区分</td>
+</tr>
+<tr>
+<td>L008</td>
+<td>声門上器具又は気管挿管による気道確保を伴う閉鎖循環式全身麻酔</td>
+<td>（本講では省略）</td>
+<td>気道確保の方法が名称で明確化</td>
+</tr>
+</tbody>
+</table>
+<p><strong>L007の4区分</strong></p>
+<ul>
+<li>「1」麻酔に従事する医師（麻酔科標榜医）が専従で実施：2,600点（施設基準の届出が必要）</li>
+<li>「2」麻酔に従事する医師の指導下で麻酔を専従で実施：1,700点（届出が必要）</li>
+<li>「3」麻酔を専従で実施：900点</li>
+<li>「4」1〜3以外：600点</li>
+<li>「1」「2」は2時間を超えると30分ごとに780点・510点の麻酔管理時間加算</li>
+<li>3歳以上6歳未満の幼児加算（所定点数の10%）がある</li>
+</ul>
+<p><strong>時間の数え方</strong></p>
+<ul>
+<li>吸入麻酔：麻酔器をつないだ時から外した時まで</li>
+<li>静脈麻酔：麻酔剤を最初に投与した時から、検査・処置などが終わった時まで</li>
+</ul>
+<p><strong>施設基準（L007「1」）の例</strong></p>
+<ul>
+<li>麻酔管理料（Ⅰ）の届出</li>
+<li>夜間・休日を含む緊急時の連絡体制と、機器・機材の設置についての手順書を、深鎮静を行う全診療科と麻酔科が協同で作っておく</li>
+</ul>
+<p><strong>小児のマスク麻酔の例外</strong></p>
+<ul>
+<li>15歳未満で、麻酔科標榜医が器具による気道確保を不適切と判断し、マスク等で20分以上の全身麻酔を行った場合は、例外的にL008で算定できる。レセプトの摘要欄に医学的な必要性を書く</li>
+</ul>
+<h3>歯科</h3>
+<table>
+<thead>
+<tr>
+<th>区分</th>
+<th>名称</th>
+<th>点数</th>
+<th>ポイント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>K002</td>
+<td>吸入鎮静法（30分まで）</td>
+<td>70点</td>
+<td>亜酸化窒素。抗不安〜中等度鎮静の範囲</td>
+</tr>
+<tr>
+<td>K003</td>
+<td>静脈内鎮静法</td>
+<td>600点</td>
+<td>意識を消失させない（意識下鎮静）。医科との連携が必要</td>
+</tr>
+<tr>
+<td>K005（新設）</td>
+<td>歯科吸入麻酔又は歯科静脈麻酔（Ⅰ）</td>
+<td>10分未満 120点／10分以上20分未満 310点</td>
+<td>意識消失を伴うもの。医科L001と同じ考え方</td>
+</tr>
+<tr>
+<td>K006（新設）</td>
+<td>歯科吸入麻酔又は歯科静脈麻酔（Ⅱ）</td>
+<td>2,600／1,700／900／600点</td>
+<td>深鎮静。医科L007と同じ考え方</td>
+</tr>
+<tr>
+<td>K004</td>
+<td>歯科麻酔管理料</td>
+<td>「1」750点／「2」600点</td>
+<td>「2」はK002・K003・K005・K006を届出歯科医師が行った場合</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>吸入鎮静法の実施にあたって参考にする資料として、日本歯科医学会「歯科診療における静脈麻酔等に関する基本的な考え方」（令和8年3月）が示された</li>
+<li>歯科静脈麻酔（Ⅱ）「1」の歯科麻酔科医：2年以上の経験、全身麻酔200症例以上、静脈内鎮静法または歯科静脈麻酔100症例以上</li>
+<li>無床の歯科診療所は、病院と連携した緊急時の体制を確保し、受入医療機関名などを届け出る</li>
+</ul>
+<h2>職種ごとの影響</h2>
+<h3>医師（麻酔科医／内視鏡・カテーテル・小児検査の担当医）</h3>
+<ul>
+<li><strong>「深さ」と「時間」を記録する意味が大きくなった</strong>：同じ鎮静でも、意識消失の有無、20分を超えたか、気道確保をしたかで区分が変わる。開始・終了時刻と深さの評価をカルテや麻酔記録に残すことが算定の前提になる</li>
+<li><strong>担当体制で評価が4倍以上違う</strong>：L007「1」2,600点と「4」600点の差は、麻酔科医が専従で関わる価値を評価したもの。考えられる影響として、内視鏡やカテーテル検査に麻酔科が関わる依頼が増える、各科と麻酔科の連携ルールの見直しが進む、などがある</li>
+<li><strong>安全体制づくり</strong>：緊急時の手順書を全診療科と麻酔科で共同作成することが施設基準になり、院内の取り決めが求められる</li>
+<li><strong>小児</strong>：マスク麻酔の例外規定やL007の幼児加算など、小児の検査鎮静の評価が明確になった（日本小児麻酔学会は改定内容の解説と、令和10年度改定への要望の募集を行っている）</li>
+</ul>
+<h3>歯科医師（歯科麻酔科医／一般歯科）</h3>
+<ul>
+<li><strong>医科と並ぶ区分</strong>：意識消失を伴う歯科吸入麻酔・歯科静脈麻酔が新設され、医科のL001・L007と同じ枠組みになった</li>
+<li><strong>深さの管理がより重要に</strong>：静脈内鎮静法は「常に意識を消失させない」状態を保つのが前提。一方、歯科静脈麻酔（深鎮静）は有害事象の頻度・重症度が高まりやすいため、監視を強化する。どちらを行ったかで区分が分かれるため、目標とした深さと実際の状態を記録する</li>
+<li><strong>治療と麻酔の分担</strong>：日本歯科医学会の考え方では、治療と麻酔を同じ歯科医師が兼ねることは推奨されない</li>
+<li><strong>医科との連携</strong>：緊急時に備え、事前に医科の保険医療機関と連携しておく</li>
+<li><strong>説明について</strong>：今回の改定や日本歯科医学会の資料で、患者への説明・同意の新しい要件は確認できなかった（2026-11-18確認）。ただし実務では、意識が残る方法か消失する方法か、絶飲食、リスク、担当者、費用の違いを説明する場面が増えると考えられる</li>
+</ul>
+<h3>医事課</h3>
+<ul>
+<li><strong>区分の選び方</strong>（図2）：意識消失があるか → 器具による気道確保があるか → 20分以上か → 誰がどの体制で行ったか、の順で判断</li>
+<li><strong>時間の確認</strong>：静脈麻酔は「最初の投与」から「処置の終了」まで。記録の時刻と突き合わせる</li>
+<li><strong>施設基準</strong>：L007「1」「2」、K006の一部は届出が前提。届出なしで高い区分を請求しないよう、院内で一覧を共有</li>
+<li><strong>摘要欄</strong>：小児マスク麻酔をL008で算定する場合など、記載が必要なケースを把握</li>
+<li><strong>査定・返戻のリスク</strong>：記録に深さ・時間・担当者がないと、区分の根拠を示せない。麻酔記録・看護記録との整合を確認</li>
+<li><strong>レセコンのマスタ更新</strong>：新設コード（L001、L007、K005、K006）の設定と、院内オーダー（医師がどの区分を選ぶか）の整備</li>
+<li><strong>患者への費用説明</strong>：区分によって点数が大きく違うため、自己負担額の目安も変わる</li>
+</ul>
+<h2>素朴な疑問Q&amp;A</h2>
+<p><strong>Q. 鎮静と全身麻酔は何が違う？</strong>
+A. 深さと、呼吸の通り道を器具で確保するかどうかです。鎮静は自分で呼吸しているのが前提で、全身麻酔は器具で呼吸を確保することが多いです。</p>
+<p><strong>Q. 鎮静中に話したり夢を見たりするの？</strong>
+A. 中等度までの鎮静では呼びかけに応じることができ、会話できることもあります。ミダゾラムなどは記憶が残りにくいため、「眠っていた」と感じることが多いです。</p>
+<p><strong>Q. 記憶がない＝深く眠っていた、ということ？</strong>
+A. 必ずしもそうではありません。薬の作用で記憶が残りにくいだけで、実際には呼びかけに応答していることがあります。</p>
+<p><strong>Q. 歯医者で眠ったまま治療できるの？</strong>
+A. 静脈内鎮静法は「うとうとしているが呼びかけには応じる」程度を保つ方法です。より深い歯科静脈麻酔や全身麻酔は、体制の整った施設で行います。</p>
+<p><strong>Q. 鎮静のあと車を運転していい？</strong>
+A. 静脈内鎮静や深い鎮静のあとは、当日の運転を控えるよう説明されるのが一般的です。笑気の吸入鎮静法では、有害事象がなければ制限が必ずしも必要ないとされています。</p>
+<h2>現場で使われる言葉</h2>
+<ul>
+<li><strong>セデーション</strong>（sedation）：鎮静</li>
+<li><strong>MAC</strong>（マック）：監視下麻酔管理。麻酔科医が鎮静を管理すること</li>
+<li><strong>SpO2</strong>（エスピーオーツー）：経皮的酸素飽和度</li>
+<li><strong>カプノ</strong>：カプノグラフィ（呼気の二酸化炭素モニター）</li>
+<li><strong>プロポ</strong>：プロポフォール</li>
+<li><strong>笑気</strong>（しょうき）：亜酸化窒素</li>
+<li><strong>拮抗</strong>（きっこう）：薬の効果を打ち消すこと</li>
+<li><strong>ラムゼイスコア</strong>：鎮静の深さを点数で表す指標</li>
+<li><strong>標榜医</strong>（ひょうぼうい）：厚生労働大臣の許可を受けて「麻酔科」を名乗れる医師</li>
+</ul>
+<h2>動画制作で役立つ視点</h2>
+<ul>
+<li>「眠らせる＝全身麻酔」と混同しない。内視鏡や歯科の鎮静は多くが「浅い〜中等度」</li>
+<li>「記憶がない＝安全に眠っていた」ではない。呼吸の監視が重要という点を伝えると正確</li>
+<li>深さは連続していて、意図せず深くなることがある。だから監視役が必要</li>
+<li>改定は「鎮静を増やす・減らす」ではなく、深さ・時間・体制に応じて評価を分けたもの</li>
+</ul>
+<h2>参考動画</h2>
+<p>元の回の動画リンクは確認できなかったため、今回は掲載していません。</p>
+<h2>確認クイズ</h2>
+<ol>
+<li>医科で、意識消失を伴う静脈麻酔を15分行った場合の区分は？</li>
+<li>L007の4区分で最も高いのは、誰がどう行った場合？</li>
+<li>歯科の静脈内鎮静法（K003）は、意識を消失させる方法？</li>
+</ol>
+<p>答え：① L001「2」10分以上20分未満 310点　② 麻酔科標榜医が専従で実施（届出あり）2,600点　③ いいえ。意識を消失させない（意識下鎮静）</p>
+<h2>出典</h2>
+<ul>
+<li><a href="https://shirobon.net/medicalfee/latest/ika/r08_ika/r08i_ch2/r08i2_pa11/r08i2b_sec1/r08i2b1_L001.html" target="_blank" rel="noopener">L001 吸入麻酔又は静脈麻酔による鎮静（しろぼんねっと、令和8年）</a></li>
+<li><a href="https://knowlety.jp/ika/l007/" target="_blank" rel="noopener">L007 吸入麻酔又は静脈麻酔による深鎮静（ナレティ、令和8年度）</a></li>
+<li><a href="https://knowlety.jp/?p=31614" target="_blank" rel="noopener">深鎮静の施設基準（ナレティ）</a></li>
+<li><a href="https://jspedanes.smoosy.atlas.jp/files/12708" target="_blank" rel="noopener">令和8年度診療報酬改定のポイント解説（日本小児麻酔学会）</a></li>
+<li><a href="https://ftp.orca.med.or.jp/pub/data/receipt/outline/revision/pdf/202606-kaisei-taiou-021100_20260517.pdf" target="_blank" rel="noopener">令和8年度診療報酬改定 麻酔（ORCA）</a></li>
+<li><a href="https://www.mhlw.go.jp/content/12400000/001671913.pdf" target="_blank" rel="noopener">令和8年度診療報酬改定の概要【歯科】（厚生労働省）</a></li>
+<li><a href="https://jads.jp/assets/pdf/basic/r08/document-260326-2.pdf" target="_blank" rel="noopener">歯科診療における静脈麻酔等に関する基本的な考え方（日本歯科医学会）</a></li>
+<li><a href="https://shirobon.net/medicalfee/latest/shika/r08_shika/r08s_ch2/r08s2_pa10/r08s2a_sec1/r08s2a1_K002.html" target="_blank" rel="noopener">K002 吸入鎮静法（しろぼんねっと）</a></li>
+<li><a href="https://shirobon.net/medicalfee/latest/shika/r08_shika/r08s_ch2/r08s2_pa10/r08s2a_sec1/r08s2a1_K003.html" target="_blank" rel="noopener">K003 静脈内鎮静法（しろぼんねっと）</a></li>
+<li><a href="https://shirobon.net/medicalfee/latest/shika/r08_shika/r08s_ch2/r08s2_pa10/r08s2a_sec1/r08s2a1_K004.html" target="_blank" rel="noopener">K004 歯科麻酔管理料（しろぼんねっと）</a></li>
+<li><a href="https://shirobon.net/medicalfee/latest/shika/r08_shika/r08s_ch2/r08s2_pa10/r08s2a_sec1/r08s2a1_K005.html" target="_blank" rel="noopener">K005 歯科吸入麻酔又は歯科静脈麻酔(Ⅰ)（しろぼんねっと）</a></li>
+</ul><div class="pager"><a href="02-ich.html">← 第2回 開頭血腫除去術</a><a class="next" href="03-evd.html">第3回 脳室ドレナージ →</a></div></main>
+<footer>医療系動画制作者のための学習教材。医学的判断の根拠にはせず、必ず専門家の監修を受けてください。</footer>
+</body></html>

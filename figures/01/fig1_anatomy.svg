@@ -1,0 +1,22 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 640'>
+<rect width='1000' height='640' fill='white'/>
+<text x='30' y='44' font-size='30' font-weight='bold' fill='#2b2b2b' font-family='Noto Sans CJK JP, Noto Sans CJK SC, sans-serif'>図1　慢性硬膜下血腫の位置（頭の断面）</text>
+<g>
+<circle cx='400' cy='900' r='820' fill='#e9c9ae'/>
+<circle cx='400' cy='900' r='780' fill='#f1ede2' stroke='#b8ad94' stroke-width='2'/>
+<circle cx='400' cy='900' r='726' fill='#f2d7dc' stroke='#4a6fa5' stroke-width='7'/>
+<path d='M160,214.8 A726,726 0 0 1 640,214.8 Q400,344 160,214.8 Z' fill='#7d5a44' opacity='0.92'/>
+<path d='M160,214.8 Q400,344 640,214.8' fill='none' stroke='#c99aa5' stroke-width='3'/>
+<path d='M120,420 q40,-30 80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0' fill='none' stroke='#c99aa5' stroke-width='3'/>
+<path d='M140,500 q40,-30 80,0 t80,0 t80,0 t80,0 t80,0 t80,0' fill='none' stroke='#c99aa5' stroke-width='3'/>
+</g>
+<text x='400' y='560' font-size='34' text-anchor='middle' fill='#c99aa5' font-weight='bold' font-family='Noto Sans CJK JP, Noto Sans CJK SC, sans-serif'>脳</text>
+<g stroke='#c0392b' stroke-width='4' fill='#c0392b'>
+<line x1='330' y1='300' x2='330' y2='360'/><polygon points='320,355 340,355 330,375'/>
+<line x1='470' y1='300' x2='470' y2='360'/><polygon points='460,355 480,355 470,375'/>
+</g>
+<text x='400' y='405' font-size='22' text-anchor='middle' fill='#c0392b' font-family='Noto Sans CJK JP, Noto Sans CJK SC, sans-serif'>血腫が脳を押す → 頭痛・まひ・物忘れ</text>
+<line x1='620' y1='130.8' x2='690' y2='90' stroke='#2b2b2b' stroke-width='1.5'/><circle cx='620' cy='130.8' r='4' fill='#2b2b2b'/><text x='698' y='96' font-size='22' fill='#2b2b2b' font-family='Noto Sans CJK JP, Noto Sans CJK SC, sans-serif'>頭皮</text><line x1='620' y1='177.8' x2='690' y2='142' stroke='#2b2b2b' stroke-width='1.5'/><circle cx='620' cy='177.8' r='4' fill='#2b2b2b'/><text x='698' y='148' font-size='22' fill='#2b2b2b' font-family='Noto Sans CJK JP, Noto Sans CJK SC, sans-serif'>頭蓋骨</text><line x1='600' y1='202.1' x2='690' y2='194' stroke='#2b2b2b' stroke-width='1.5'/><circle cx='600' cy='202.1' r='4' fill='#2b2b2b'/><text x='698' y='200' font-size='22' fill='#2b2b2b' font-family='Noto Sans CJK JP, Noto Sans CJK SC, sans-serif'>硬膜（脳を包む丈夫な膜）</text><line x1='540' y1='228.0' x2='690' y2='246' stroke='#2b2b2b' stroke-width='1.5'/><circle cx='540' cy='228.0' r='4' fill='#2b2b2b'/><text x='698' y='252' font-size='22' fill='#2b2b2b' font-family='Noto Sans CJK JP, Noto Sans CJK SC, sans-serif'>血腫（古い血液がたまる）</text><line x1='640' y1='320.0' x2='690' y2='298' stroke='#2b2b2b' stroke-width='1.5'/><circle cx='640' cy='320.0' r='4' fill='#2b2b2b'/><text x='698' y='304' font-size='22' fill='#2b2b2b' font-family='Noto Sans CJK JP, Noto Sans CJK SC, sans-serif'>くも膜・脳</text>
+<rect x='30' y='590' width='940' height='40' rx='8' fill='#f5f5f5'/>
+<text x='46' y='617' font-size='20' fill='#666666' font-family='Noto Sans CJK JP, Noto Sans CJK SC, sans-serif'>ポイント：血腫は「硬膜の下」で「脳の外側」。三日月形にたまり、時間をかけて大きくなる</text>
+</svg>
