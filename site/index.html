@@ -32,12 +32,31 @@ blockquote{margin:12px 0;padding:8px 14px;background:var(--soft);border-left:4px
 .pager{display:flex;justify-content:space-between;gap:12px;margin-top:40px;font-size:14px}
 .pager a{flex:1;padding:10px 12px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink)}
 .pager a.next{text-align:right}
+#qa{margin-top:40px;padding:16px;border:1px solid var(--line);border-radius:14px;background:var(--soft)}
+#qa h2{border:0;margin:0 0 4px;padding:0;font-size:19px}
+.qa-lead{color:var(--sub);font-size:13px;margin:0 0 10px}
+.qa-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.qa-chip{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink);cursor:pointer}
+.qa-log{display:flex;flex-direction:column;gap:8px;margin-bottom:10px}
+.qa-msg{padding:10px 12px;border-radius:12px;font-size:15px;line-height:1.7;max-width:100%}
+.qa-msg p{margin:0 0 6px;font-size:15px}.qa-msg p:last-child{margin:0}
+.qa-msg ul{margin:4px 0 6px;padding-left:20px}.qa-msg li{font-size:15px}
+.qa-user{align-self:flex-end;background:var(--accent);color:#fff;max-width:85%}
+.qa-bot{align-self:flex-start;background:#fff;border:1px solid var(--line)}
+.qa-note{color:var(--sub);font-size:12px}
+#qa textarea{width:100%;min-height:72px;font:inherit;font-size:16px;padding:10px;border:1px solid var(--line);border-radius:10px;resize:vertical}
+.qa-row{display:flex;gap:8px;align-items:center;margin-top:8px;flex-wrap:wrap}
+.qa-send{font:inherit;padding:8px 18px;border:0;border-radius:999px;background:var(--accent);color:#fff;cursor:pointer}
+.qa-send:disabled{opacity:.5}
+.qa-stop,.qa-clear{font:inherit;font-size:13px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:#fff;cursor:pointer}
+.qa-status{color:var(--sub);font-size:13px}
+.qa-fab{position:fixed;right:16px;bottom:16px;z-index:6;background:var(--accent);color:#fff;text-decoration:none;padding:10px 16px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.18);font-size:14px}
 footer{color:var(--sub);font-size:12px;text-align:center;padding:24px 16px;border-top:1px solid var(--line)}
 </style></head>
 <body>
 <header><div class="bar"><a class="brand" href="index.html">医療知識 学習ロードマップ</a>
 <details class="nav"><summary>目次</summary><div class="menu"><a href="index.html" class="cur">トップ（ロードマップ・学習ログ）</a><a href="basics.html" class="">総論：病院の全体像</a><div class="grp">レッスン</div><a href="lessons/01-csdh.html" class="">第1回 慢性硬膜下血腫</a><a href="lessons/02-ich.html" class="">第2回 開頭血腫除去術</a><a href="lessons/sp1-sedation.html" class="">特別回 鎮静と改定</a><a href="lessons/03-evd.html" class="">第3回 脳室ドレナージ</a><a href="lessons/04-clipping.html" class="">第4回 動脈瘤クリッピング</a><a href="lessons/05-coiling.html" class="">第5回 コイル塞栓術</a></div></details></div></header>
-<main><h1>医療知識 学習ロードマップ</h1>
+<main><article><h1>医療知識 学習ロードマップ</h1>
 <p>医療系動画の制作者が、医師・看護師・医事課と会話できるようになり、企画と台本を医学的に正確に作れるようになるための教材です。毎日17:50ごろに1手技ずつレッスンが届き、このサイトに追加されます。</p>
 <h2>使い方</h2>
 <ul>
@@ -421,6 +440,20 @@ footer{color:var(--sub);font-size:12px;text-align:center;padding:24px 16px;borde
 <td>内科と外科の分担、レセプトは翌月10日まで、説明の中心は医師</td>
 </tr>
 </tbody>
-</table></main>
+</table></article><section id="qa"><h2>この教材について質問する</h2>
+<p class="qa-lead">このページの内容をもとに Claude が答えます。医学的な判断は必ず専門家に確認してください。</p>
+<div class="qa-chips">
+<button class="qa-chip" type="button" data-q="この回の内容を3行でまとめて">3行でまとめて</button>
+<button class="qa-chip" type="button" data-q="中学生にもわかるように、たとえ話を使って説明して">もっとやさしく</button>
+<button class="qa-chip" type="button" data-q="この回の内容で、一般向け解説動画の冒頭30秒のナレーション案を書いて。誤解を招く表現は避けて">動画の台本案</button>
+<button class="qa-chip" type="button" data-q="この手技について医師や看護師に取材するとき、聞くとよい質問を5つ挙げて">取材で聞くこと</button>
+<button class="qa-chip" type="button" data-q="この回の内容から理解度を確かめる問題を3問出して。答えは最後にまとめて">問題を出して</button>
+</div>
+<div class="qa-log" aria-live="polite"></div>
+<form><textarea placeholder="例：ドレーンはいつ抜くの？　この用語の意味は？" aria-label="質問"></textarea>
+<div class="qa-row"><button class="qa-send" type="submit">送信</button><button class="qa-stop" type="button" hidden>停止</button><button class="qa-clear" type="button" hidden>履歴を消す</button><span class="qa-status"></span></div></form>
+</section></main>
+<a class="qa-fab" href="#qa">質問する</a>
+<script src="qa.js"></script>
 <footer>医療系動画制作者のための学習教材。医学的判断の根拠にはせず、必ず専門家の監修を受けてください。</footer>
 </body></html>

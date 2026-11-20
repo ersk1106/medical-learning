@@ -12,6 +12,7 @@
 | `figures/<回>/` | 図（SVGが原本、PNGはサイト用） |
 | `tools/figs.py` | 第2回以降の図を生成（`rsvg-convert` と Noto Sans CJK が必要） |
 | `tools/build.py` | `content/` から `site/` にスマホ向けの静的サイトを生成 |
+| `tools/qa.js` | 各ページ下部の「この教材について質問する」機能（アーティファクトの sample 機能で Claude に質問） |
 | `site/` | 生成されたサイト（Claude のアーティファクトとして公開） |
 
 ## 更新手順
